@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class CreateDialogComponent implements OnInit {
 
+  permissionList = ["Code", "Description"];
   userForm !: FormGroup;
 
   constructor(
@@ -28,7 +29,7 @@ export class CreateDialogComponent implements OnInit {
       username : ['', Validators.required],
       password : ['', Validators.required],
       email : ['', Validators.email],
-      status : ['', Validators.required],
+      status : ['', Validators.required]
     })
 
     if(this.editData) {

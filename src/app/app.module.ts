@@ -27,6 +27,7 @@ import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
 import { PermissionComponent } from './permission/permission.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatCardModule} from '@angular/material/card';
+import { ApiService } from './services/api.service';
 
 
 const appParentRoutes: Routes = [
@@ -82,6 +83,7 @@ const appParentRoutes: Routes = [
     )
   ],
   providers: [
+    ApiService,
     {
       provide: MatDialogRef,
       useValue: {}

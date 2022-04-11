@@ -1,94 +1,235 @@
 {
   "userList": [
     {
-      "firstName": "Sabrina2",
-      "lastName": "Kolecic",
-      "username": "sabrina",
-      "password": "test",
-      "email": "sabrina.pracic@gmail.com",
-      "status": "ž",
-      "id": 3
-    },
-    {
       "firstName": "Goran",
-      "lastName": "Kolecic",
+      "lastName": "Kolečić",
       "username": "goca987",
-      "password": "gpj7MNMK",
+      "password": "gpj7",
       "email": "goca987@gmail.com",
-      "status": "m",
-      "id": 4
+      "status": "status",
+      "id": 1,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": false
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": true
+        }
+      ]
     },
     {
-      "firstName": "Goran",
-      "lastName": "Kolecic",
-      "username": "goca9887",
-      "password": "gpj7MNMK",
-      "email": "gpj7MNMK",
-      "status": "haha",
-      "id": 5
+      "firstName": "User",
+      "lastName": "Test",
+      "username": "user",
+      "password": "pass",
+      "email": "test@gmail.com",
+      "status": "3",
+      "id": 2,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "john",
+      "password": "password",
+      "email": "john@doe.com",
+      "status": "statzs",
+      "id": 3,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
     },
     {
       "firstName": "Neko",
-      "lastName": "Ko",
-      "username": "ima",
-      "password": "sifra",
-      "email": "mail",
+      "lastName": "Nekic",
+      "username": "neko",
+      "password": "neko",
+      "email": "neko@gmail.com",
       "status": "test",
-      "id": 6
+      "id": 4,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
     },
     {
-      "firstName": "Goca",
-      "lastName": "test",
-      "username": "goca987",
-      "password": "opet",
-      "email": "mail",
+      "firstName": "Jim",
+      "lastName": "Carrey",
+      "username": "jim",
+      "password": "pass",
+      "email": "jim@carey.com",
+      "status": "testingf",
+      "id": 5,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "firstName": "Goran",
+      "lastName": "Test",
+      "username": "goran",
+      "password": "pass",
+      "email": "goran.kolecic@gmail.com",
       "status": "status",
-      "id": 7
+      "id": 6,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
     },
     {
-      "firstName": "Home",
-      "lastName": "Homilic",
-      "username": "goca987",
-      "password": "gpj7MNMK",
-      "email": "goca987@gmail.com",
-      "status": "m",
-      "id": 8
+      "firstName": "Bill",
+      "lastName": "Gates",
+      "username": "bill",
+      "password": "test",
+      "email": "billgates@microsoft.com",
+      "status": "testing",
+      "id": 7,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
     },
     {
-      "firstName": "Kolecic",
-      "lastName": "sabrina",
-      "username": "pass",
-      "password": "goca987@gmail.com",
-      "email": "jjjjj",
+      "firstName": "Ivan",
+      "lastName": "Ivanovic",
+      "username": "ivan",
+      "password": "test",
+      "email": "ivan.ivanovic@gmial.com",
+      "status": "status",
+      "id": 8,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "firstName": "Goran",
+      "lastName": "Nekic",
+      "username": "test",
+      "password": "user",
+      "email": "goran@gmail.com",
       "status": "test",
-      "id": 9
+      "id": 9,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
     },
     {
-      "firstName": "Diego",
-      "lastName": "Tristan",
-      "username": "diegoT",
-      "password": "diego",
-      "email": "goca987@gmail.com",
-      "status": "m",
-      "id": 10
+      "firstName": "Deset",
+      "lastName": "Desetevic",
+      "username": "des12",
+      "password": "oidsoidsoijds",
+      "email": "deset@user.com",
+      "status": "status",
+      "id": 10,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
     },
     {
-      "firstName": "Test",
-      "lastName": "Proba",
-      "username": "goca987",
-      "password": "test123",
-      "email": "trud@gmail.com",
-      "status": "stvarno",
-      "id": 11
-    },
-    {
-      "firstName": "Test",
-      "lastName": "reload",
-      "username": "joj",
-      "password": "ne",
-      "email": "to",
-      "status": "sad",
-      "id": 12
+      "firstName": "Novi",
+      "lastName": "Korisnik",
+      "username": "novi",
+      "password": "koji",
+      "email": "novi@korisnik.com",
+      "status": "status",
+      "id": 11,
+      "permissionList": [
+        {
+          "id": 1,
+          "name": "code",
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "name": "description",
+          "isSelected": false
+        }
+      ]
     }
   ],
   "permissionList": [

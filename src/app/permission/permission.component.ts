@@ -14,31 +14,52 @@ export class PermissionComponent implements OnInit {
   indeterminate = false;
   labelPosition: 'before' | 'after' = 'after';
   disabled = false;
-  premissions: any;
+  permissionList: any;
 
   constructor(
     private route : ActivatedRoute, 
     private router : Router, 
     private api: ApiService) { }
 
+    id:any
+    user:any
+
   ngOnInit(): void {
+    this.id = this.route.snapshot.paramMap.get('id');
     this.getAllPermissions();
   }
 
-  navigateHome() {
-    this.router.navigate(['']);
+  getAllPermissions() {
+
+      this.api.getUserById(this.id)
+      .subscribe({
+        next:(res)=>{
+          this.user = res;
+          this.permissionList = this.user.permissionList;
+        },
+        error:(err)=>{
+          console.error("Error while getting users data");
+        }
+      })
   }
 
-  getAllPermissions() {
-    this.api.getPermission()
-    .subscribe({
-      next:(res)=>{
-        console.warn('getAllPermissions', res);
-      },
-      error:(err)=>{
-        console.error("Error while getting users data");
-      }
-    })
+  updatePermission() {
+    console.warn('update permission', this.user);
+    this.api.putUser(this.user, this.id)
+     .subscribe({
+       next:(res)=>{
+         console.log("User updated successfully");
+         this.permissionList = res.permissionList;
+         this.navigateHome();
+  },
+       error:(err)=>{
+         console.error("Error while updating user");
+       }
+     })
+   }
+
+  navigateHome() {
+    this.router.navigate(['']);
   }
 
 }

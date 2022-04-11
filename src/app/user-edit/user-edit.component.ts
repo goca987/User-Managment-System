@@ -52,7 +52,7 @@ export class UserEditComponent implements OnInit {
     this.api.putUser(this.userForm.value, this.id)
      .subscribe({
        next:(res)=>{
-         console.log("User updated successfully", res);
+         console.log("User updated successfully");
          this.userForm.reset();
          this.navigateHome();
   },

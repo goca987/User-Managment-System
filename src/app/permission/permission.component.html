@@ -2,18 +2,14 @@
       <mat-card-content>
         <h2 class="example-h2">Edit permissions</h2>
         <section class="example-section">
-          <mat-checkbox *ngFor="let permission of premissions"
-              class="example-margin"
-              [(ngModel)]="checked"
-              [(indeterminate)]="indeterminate"
-              [labelPosition]="labelPosition"
-              [disabled]="disabled">
-            {{permission}}
-          </mat-checkbox>
+          <div *ngFor="let permission of permissionList">
+            <div><input type="checkbox" name="{{permission.name}}" [(ngModel)]="permission.isSelected"></div>
+            <div><label>{{permission.name}}</label></div>
+        </div>
         </section>
       </mat-card-content>
   <div class="permission-buttons">
     <button mat-raised-button color="warn" (click)="navigateHome()">Close</button>
-    <button class="update-button" mat-raised-button color="primary">Update</button>
+    <button class="update-button" mat-raised-button color="primary" (click)="updatePermission()">Update</button>
   </div>
 </mat-card>
