@@ -1,0 +1,107 @@
+{
+  "userList": [
+    {
+      "firstName": "Sabrina2",
+      "lastName": "Kolecic",
+      "username": "sabrina",
+      "password": "test",
+      "email": "sabrina.pracic@gmail.com",
+      "status": "ž",
+      "id": 3
+    },
+    {
+      "firstName": "Goran",
+      "lastName": "Kolecic",
+      "username": "goca987",
+      "password": "gpj7MNMK",
+      "email": "goca987@gmail.com",
+      "status": "m",
+      "id": 4
+    },
+    {
+      "firstName": "Goran",
+      "lastName": "Kolecic",
+      "username": "goca9887",
+      "password": "gpj7MNMK",
+      "email": "gpj7MNMK",
+      "status": "haha",
+      "id": 5
+    },
+    {
+      "firstName": "Neko",
+      "lastName": "Ko",
+      "username": "ima",
+      "password": "sifra",
+      "email": "mail",
+      "status": "test",
+      "id": 6
+    },
+    {
+      "firstName": "Goca",
+      "lastName": "test",
+      "username": "goca987",
+      "password": "opet",
+      "email": "mail",
+      "status": "status",
+      "id": 7
+    },
+    {
+      "firstName": "Home",
+      "lastName": "Homilic",
+      "username": "goca987",
+      "password": "gpj7MNMK",
+      "email": "goca987@gmail.com",
+      "status": "m",
+      "id": 8
+    },
+    {
+      "firstName": "Kolecic",
+      "lastName": "sabrina",
+      "username": "pass",
+      "password": "goca987@gmail.com",
+      "email": "jjjjj",
+      "status": "test",
+      "id": 9
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "Tristan",
+      "username": "diegoT",
+      "password": "diego",
+      "email": "goca987@gmail.com",
+      "status": "m",
+      "id": 10
+    },
+    {
+      "firstName": "Test",
+      "lastName": "Proba",
+      "username": "goca987",
+      "password": "test123",
+      "email": "trud@gmail.com",
+      "status": "stvarno",
+      "id": 11
+    },
+    {
+      "firstName": "Test",
+      "lastName": "reload",
+      "username": "joj",
+      "password": "ne",
+      "email": "to",
+      "status": "sad",
+      "id": 12
+    }
+  ],
+  "permissionList": [
+    {
+      "id": 1,
+      "body": "code"
+    },
+    {
+      "id": 2,
+      "body": "description"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

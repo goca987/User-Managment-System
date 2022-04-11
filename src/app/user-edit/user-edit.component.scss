@@ -1,0 +1,16 @@
+.edit-title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.edit-content {
+    text-align: center;
+
+    mat-form-field {
+        min-width: 20rem;
+    }
+
+    .update-button {
+        margin-left: 3rem;
+    }
+}

@@ -1,0 +1,46 @@
+<h1 class="edit-title" mat-dialog-title>Edit user</h1>
+<div class="edit-content" mat-dialog-content>
+    <form [formGroup]="userForm">
+        <div>
+            <mat-form-field class="edit-field" appearance="outline">
+                <mat-label>First Name</mat-label>
+                <input formControlName="firstName" matInput placeholder="First Name">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Last Name</mat-label>
+                <input formControlName="lastName" matInput placeholder="Last Name">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                <input formControlName="username" matInput placeholder="Username">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input formControlName="password" matInput placeholder="Password" type="password">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input formControlName="email" matInput placeholder="Email">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>Status</mat-label>
+                <input formControlName="status" matInput placeholder="Status">
+            </mat-form-field>
+        </div>
+    </form>
+
+    <div mat-dialog-action >
+        <button mat-raised-button color="warn" mat-dialog-close (click)="navigateHome()">Close</button>
+        <button class="update-button" mat-raised-button color="primary" (click)="updateUser()">Update</button>
+    </div>
+</div>
